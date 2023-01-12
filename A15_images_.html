@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <title>Image</title>
+    <!--
+        The <img> tag has two required attributes:-
+        src - Specifies the path to the image
+        alt - Specifies an alternate text for the image
+    -->
+</head>
+<body>
+    <img src="imageName.jpg" alt="HTML Logo is there.">
+
+    <hr>
+
+    <!-- 
+        If a browser cannot find an image, 
+        it will display the value of the alt attribute:
+    -->
+    <img src="image.jpg" alt="alt text will display.">
+
+    <hr>
+
+    <!--
+        Image Size - Width and Height
+    -->
+    <img src="imageName.jpg" alt="HTML Logo" style="height: 80px; width: 80px;">
+    <hr><!-- OR -->
+    <img src="imageName.jpg" alt="HTML Logo" height="80px" width="80px">
+    <!-- OR -->
+    <!--
+        We can use <style> tag in <head> 
+            <style>
+                img {
+                    width: 100%
+                }
+            </style>
+    -->
+    <hr>
+    <!--
+        Images in Another Folder:-
+        you must include the folder name in the src attribute:
+    -->
+    <h3>From another folder :- </h3>
+    <img src="/images/html5.gif" alt="HTML5 Icon">
+
+    <hr>
+
+    <!--
+        Images on Another Server/Website :-
+    -->
+    <h3>From another website :- </h3>
+    <img src="https://cdn-icons-png.flaticon.com/512/121/121537.png" alt="Images on Another Server/Website" height="80px" width="80px">
+
+    <hr>
+
+    <!--
+        Animated Images :-
+    -->
+    <h3>Gif image :- </h3>
+    <img src="programming.gif" alt="Man doing programming" height="500px" width="500px">
+
+    <hr>
+
+    <!--
+        Image as a link :-
+    -->
+    <h3>Click on the image :- </h3>
+    <a href="https://github.com/aniket-vyas/HTML-from-basic">
+        <img src="programming.gif" alt="Padhle bhai" height="300px" width="300px">
+    </a>
+
+    <hr>
+
+    <!--
+        Image Floating :-
+           ~> style="float:right"
+    -->
+    <p>
+        <img src="imageName.jpg" alt="HTML Logo" style="float:right ; width: 300px ; height: 300px">
+        <h3>Hello everyone! Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+        </h3>
+    </p>
+</body>
+</html>
