@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>imageMaps</title>
+    <!--
+        With HTML image maps,
+        you can create clickable areas on an image.
+        ~> The only difference from other images 
+        is that you must add a usemap attribute.
+        
+        ~> You must define the shape of the clickable area,
+        and you can choose one of these values:
+        -> rect - defines a rectangular region
+        -> circle - defines a circular region
+        -> poly - defines a polygonal region
+        -> default - defines the entire region
+
+        <img> :- Defines an image
+        <map> :- Defines an image map
+        <area> :- Defines a clickable area inside an image map
+        <picture> :- Defines a container for multiple image resources
+
+        For find the coords in the image use "imagemap.org" website
+    -->
+</head>
+<body>
+
+    <img src="imageName.jpg" alt="HTML Logo" usemap="#imagemap">
+    <map name="imagemap">
+      
+        <!-- Click on the HTML logo -->
+        <area alt="HTML Logo" href="image.html" coords="344,303,855,437" shape="rect">
+      
+        <!-- Click on the boy sit on chair -->
+        <area alt="Man doing Programming" href="programming.gif" coords="237,-1,414,152" shape="rect">
+    </map>
+
+</body>
+</html>
