@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>Padding & Spacing</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        th, td {
+            /*
+            Cell Padding :- 
+            space between the cell edges and the cell content
+
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+
+            or in single line :-
+            */
+          padding: 15px; 
+        }
+        table {
+            /* Cell spacing :- is the space between each cell. */
+            border-spacing: 30px;
+            /*
+            border-collapse: collapse;
+            after that we don't use collapse 
+            */
+        }
+    </style>
+</head>
+<body>
+    <table style="width:50%">
+        <caption>This is Table Caption.</caption>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Aniket</td>
+          <td>Vyas</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Vivan</td>
+          <td>Sharma</td>
+          <td>94</td>
+        </tr>
+      </table>
+</body>
+</html>
