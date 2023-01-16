@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>sizes & headers</title>
+    <style>
+        table, th, td {
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+
+        /* 
+        Align Table Headers :-
+        th{
+            text-align: right;
+        }
+        */
+    </style>
+</head>
+<body>
+    <h2>100% width :- </h2>
+    <table style="width:100%">
+        <caption>Samjh aaya kya....?</caption>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Aniket</td>
+          <td>Vyas</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Vivan</td>
+          <td>Sharma</td>
+          <td>94</td>
+        </tr>
+      </table>
+
+      <h2>50% width :-</h2>
+      <table style="width:50%">
+        <caption>Samjh aaya kya....?</caption>
+        <tr>
+            <!-- Table Column Width -->
+          <th style="width: 47%;">Firstname</th>
+          <th style="width: 47%;">Lastname</th>
+          <th>Age</th>
+        </tr>
+        <!-- Table Row Height -->
+        <tr style="height: 100px;">
+          <td>Aniket</td>
+          <td>Vyas</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Vivan</td>
+          <td>Sharma</td>
+          <td>94</td>
+        </tr>
+      </table>
+
+      <h2> Header for Multiple Columns :- </h2>
+      <table style="width:50%">
+        <caption>This is Table Caption.</caption>
+        <!--
+            The <caption> tag should be inserted
+            immediately after the <table> tag.
+        -->
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Aniket</td>
+          <td>Vyas</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Vivan</td>
+          <td>Sharma</td>
+          <td>94</td>
+        </tr>
+      </table>
+</body>
+</html>
