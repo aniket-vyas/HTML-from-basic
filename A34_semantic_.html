@@ -5,20 +5,37 @@
         A semantic element clearly describes its meaning
         to both the browser and the developer.
     -->
+    <style>
+        aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+        }
+    </style>
 </head>
 <body>
     <section>
         <!--
             A section is a thematic grouping of content, typically with a heading.
         -->
-        <h1>WWF</h1>
+        <header>
+            <h1>What Does WWF Do?</h1>
+            <p>WWF's mission:</p>
+        </header>
+        <!--
+            The <header> element represents a container for
+                introductory content or a set of navigational links.
+        -->
         <p>
             The World Wide Fund for Nature (WWF) is an international
             organization working on issues regarding the conservation,
             research and restoration of the environment,
             formerly named the World Wildlife Fund. WWF was founded in 1961.
         </p>
-        </section>
+    </section>
         <!-- 
             Examples of where a <section> element can be used:
                 ~ Chapters
@@ -26,7 +43,7 @@
                 ~ News items
                 ~ Contact information
          -->
-        <section>
+    <section>
         <h1>WWF's Panda symbol</h1>
         <p>
             The Panda has become the symbol of WWF.
@@ -34,7 +51,7 @@
             Chi Chi that was transferred from the Beijing Zoo to the
             London Zoo in the same year of the establishment of WWF.
         </p>
-        </section>
+    </section>
 
     <h1>The article element</h1>
     <!--
@@ -44,28 +61,60 @@
             and it should be possible to distribute it
             independently from the rest of the web site.
     -->
-        <article>
+    <article>
         <h2>Google Chrome</h2>
         <p>
             Google Chrome is a web browser developed by Google, released in 2008.
             Chrome is the world's most popular web browser today!
         </p>
-        </article>
+    </article>
 
-        <article>
+    <article>
         <h2>Mozilla Firefox</h2>
         <p>
             Mozilla Firefox is an open-source web browser developed by Mozilla.
             Firefox has been the second most popular web browser since January, 2018.
         </p>
-        </article>
+    </article>
 
-        <article>
+    <article>
         <h2>Microsoft Edge</h2>
         <p>
             Microsoft Edge is a web browser developed by Microsoft, released in 2015.
             Microsoft Edge replaced Internet Explorer.
         </p>
-        </article>
+    </article>
+
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+        <!--
+            The <footer> element defines a footer for a document or section.
+        -->
+
+    <p>
+        My family and I visited The Epcot center this summer.
+        The weather was nice, and Epcot was amazing! I had a great summer together with my family!
+    </p>
+
+    <aside>
+        <h4>Epcot Center</h4>
+        <p>
+            Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+            international pavilions, award-winning fireworks and seasonal special events.
+        </p>
+    </aside>
+    <!--
+        The <aside> content should be indirectly related to the surrounding content.
+    -->
+
+    <figure>
+        <img src="womenhahaha.jpeg" alt="womenhahaha">
+        <figcaption>black and white girl :)</figcaption>
+    </figure>
+    <!--
+        The <figcaption> tag defines a caption for a <figure> element. 
+    -->
 </body>
 </html>
